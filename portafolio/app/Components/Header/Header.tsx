@@ -38,14 +38,14 @@ export default function Header(){
                             <Link href="#cv" className={styles.nav__link}>CV</Link>
                         </label>
                     </li>
-                    <li className="nav__item">
+                    <li className={styles.nav__item}>
                         <label htmlFor="nav-toggle">
-                            <a href="#projects" className="nav__link">Proyectos</a>
+                            <Link href="#projects" className={styles.nav__link}>Proyectos</Link>
                         </label>
                     </li>
-                    <li className="nav__item">
+                    <li className={styles.nav__item}>
                         <label htmlFor="nav-toggle">
-                            <a href="#contact" className="nav__link">Contacto</a>
+                            <Link href="#contact" className={styles.nav__link}>Contacto</Link>
                         </label>
                     </li>
                 </ul>
