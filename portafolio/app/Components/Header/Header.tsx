@@ -12,9 +12,9 @@ export default function Header(){
                 <span className={styles.logo__bracket}>&lt;</span>{HeaderData}<span className={styles.logo__bracket}>/&gt;</span>
             </Link>
             
-            <input type="checkbox" id="nav-toggle" className="nav__checkbox"/>
-            <label htmlFor="nav-toggle" className="nav__toggle">
-                <i className="fas fa-bars"></i>
+            <input type="checkbox" id="nav-toggle" className={styles.nav__checkbox}/>
+            <label htmlFor="nav-toggle" className={styles.nav__toggle}>
+                <i className={styles.fas} fa-bars></i>
             </label>
             
             <div className="nav__menu" id="nav-menu">
