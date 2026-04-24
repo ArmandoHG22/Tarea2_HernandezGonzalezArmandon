@@ -17,15 +17,15 @@ export default function Header(){
                 <i className={styles.fas} fa-bars></i>
             </label>
             
-            <div className="nav__menu" id="nav-menu">
-                <label htmlFor="nav-toggle" className="nav__close">
+            <div className={styles.nav__menu} id="nav-menu">
+                <label htmlFor="nav-toggle" className={styles.nav__close}>
                     <i className="fas fa-times"></i>
                 </label>
                 
-                <ul className="nav__list">
-                    <li className="nav__item">
+                <ul className={styles.nav__list}>
+                    <li className={styles.nav__item}>
                         <label htmlFor="nav-toggle">
-                            <a href="#home" className="nav__link">Inicio</a>
+                            <Link href="#home" className={styles.nav__link}>Inicio</Link>
                         </label>
                     </li>
                     <li className="nav__item">
