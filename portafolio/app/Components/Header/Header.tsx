@@ -28,9 +28,9 @@ export default function Header(){
                             <Link href="#home" className={styles.nav__link}>Inicio</Link>
                         </label>
                     </li>
-                    <li className="nav__item">
+                    <li className={styles.nav__item}>
                         <label htmlFor="nav-toggle">
-                            <a href="#interests" className="nav__link">Intereses</a>
+                            <Link href="#interests" className={styles.nav__link}>Intereses</Link>
                         </label>
                     </li>
                     <li className="nav__item">
