@@ -11,6 +11,15 @@
     transition: all var(--transition-base);
 }
 
+.nav__menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav__menu {
+    margin-left: auto;
+}
+
 .nav {
     display: flex;
     align-items: center;
