@@ -14,7 +14,7 @@ export default function Header(){
             
             <input type="checkbox" id="nav-toggle" className={styles.nav__checkbox}/>
             <label htmlFor="nav-toggle" className={styles.nav__toggle}>
-                <i className={styles.fas} fa-bars></i>
+                <i className="fas fa-bars"></i>
             </label>
             
             <div className={styles.nav__menu} id="nav-menu">
@@ -33,9 +33,9 @@ export default function Header(){
                             <Link href="#interests" className={styles.nav__link}>Intereses</Link>
                         </label>
                     </li>
-                    <li className="nav__item">
+                    <li className={styles.nav__item}>
                         <label htmlFor="nav-toggle">
-                            <a href="#cv" className="nav__link">CV</a>
+                            <Link href="#cv" className={styles.nav__link}>CV</Link>
                         </label>
                     </li>
                     <li className="nav__item">
